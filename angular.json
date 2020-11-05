@@ -1,9 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dex-cal2": {
+    "dex-cal": {
       "projectType": "library",
       "root": "projects/dex-cal2",
       "sourceRoot": "projects/dex-cal2/src",
@@ -36,9 +36,7 @@
               "projects/dex-cal2/tsconfig.lib.json",
               "projects/dex-cal2/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -63,9 +61,7 @@
               "projects/dex-cal2-demo/src/favicon.ico",
               "projects/dex-cal2-demo/src/assets"
             ],
-            "styles": [
-              "projects/dex-cal2-demo/src/styles.css"
-            ],
+            "styles": ["projects/dex-cal2-demo/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -127,9 +123,7 @@
               "projects/dex-cal2-demo/src/favicon.ico",
               "projects/dex-cal2-demo/src/assets"
             ],
-            "styles": [
-              "projects/dex-cal2-demo/src/styles.css"
-            ],
+            "styles": ["projects/dex-cal2-demo/src/styles.css"],
             "scripts": []
           }
         },
@@ -141,9 +135,7 @@
               "projects/dex-cal2-demo/tsconfig.spec.json",
               "projects/dex-cal2-demo/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -159,6 +151,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "dex-cal2"
 }
